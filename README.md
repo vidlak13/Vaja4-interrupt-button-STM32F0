@@ -9,3 +9,6 @@ e.)  HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_8);
 f.)  HAL_Delay(500);
 4. b.)Ko pritisnemo push blue button se prižge ZELENA led in sveti, medtem ko MODRA led ves čas utripa .
 c.)Ne vpliva na delovanje tipke.  Zato, ker s pritiskom na tipko vsilimo v program da začne modra led svetiti. Tudi zaradi tega, ker zanki niso napisane skupaj ampak v drugih vrsticah( User code begin 3, User code begin 4).
+--------------------------------------------------
+KOMENTAR NA DELOVANJE:
+S pritiskom na tipko se prižge zelena led, medtem ko modra led ves čas utripa z isto frekvenco. Program deluje brez napak.
