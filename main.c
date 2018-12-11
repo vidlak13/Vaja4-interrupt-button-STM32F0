@@ -105,7 +105,7 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-		HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_9);
+		HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_8);
 		HAL_Delay(500);
   }
   /* USER CODE END 3 */
@@ -203,7 +203,7 @@ static void MX_GPIO_Init(void)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PinState)
 {
 	UNUSED(GPIO_PinState);
-	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
 	for(uint32_t i=0; i<10000; i++);
 }
 /* USER CODE END 4 */
